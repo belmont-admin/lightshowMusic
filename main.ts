@@ -1,6 +1,3 @@
-input.onButtonPressed(Button.B, function () {
-    radio.sendNumber(250)
-})
 input.onButtonPressed(Button.A, function () {
     for (let index = 0; index <= tune_beats.length - 1; index++) {
         radio.sendString("" + (colours[index]))
