@@ -12,6 +12,13 @@ let notes_freq: number[] = []
 let tune_beats: number[] = []
 let colours: string[] = []
 let tune_notes: string[] = []
+basic.showLeds(`
+    . . # # .
+    . . # . .
+    . . # . .
+    . # # . .
+    . # # . .
+    `)
 radio.setGroup(1)
 tune_notes = ["C", "G", "F", "E", "D", "c", "G", "F", "E", "D", "c", "G", "F", "E", "F", "D"]
 colours = ["red", "green", "yellow", "red", "yellow", "green", "red", "green", "yellow", "green", "red", "green", "yellow", "green", "red", "yellow"]
